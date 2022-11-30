@@ -1,0 +1,13 @@
+.searchBar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+}
+
+.searchBar {
+    width: 45%;
+    height: 60px;
+    background-color: lightgrey;
+}

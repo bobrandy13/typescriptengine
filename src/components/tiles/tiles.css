@@ -1,0 +1,44 @@
+.tiles {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 50px 50px;
+    gap: 25px;
+    justify-content:space-around;
+}
+
+
+
+#todoBox, #weatherBox, #bookmarksBox {
+    flex-grow: 1;
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+    text-align: center;
+
+}
+
+#weatherBox {
+    flex-grow: 3/2;
+}
+
+#weatherLocation {
+    position: relative;
+    left: -27px;
+    float: left;
+    height: 60px;
+    width: 75%;
+    margin: 0vh 0vh 3vh 6vh;
+    background-color: rgb(224, 178, 156);
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#submit {
+    position: relative;
+    right: 25px;
+    height: 70px;
+    width: 12.3%;
+
+}
